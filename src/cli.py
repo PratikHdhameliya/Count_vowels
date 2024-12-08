@@ -2,7 +2,6 @@ import argparse
 from .vowel_counter import count_vowels_in_string
 from .advanced_vowel_counter import count_each_vowel
 
-
 def main():
     """
     Main function to handle CLI arguments and execute the appropriate functionality.
@@ -25,10 +24,8 @@ def main():
     else:
         print("No valid option selected. Use --help for usage details.")  # Fallback message
 
-
 if __name__ == "__main__":
     main()
-
 
 # python -m src.cli "Hello World"
 # python -m src.cli "Hello World" --detail

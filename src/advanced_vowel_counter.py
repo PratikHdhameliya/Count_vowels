@@ -10,7 +10,6 @@ def count_each_vowel(text):
     
     return vowels_count
 
-
 # Main execution block
 if __name__ == "__main__":
     # Prompt the user for input

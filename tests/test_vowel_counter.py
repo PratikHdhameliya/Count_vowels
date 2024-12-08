@@ -1,8 +1,6 @@
 import unittest
 from src.vowel_counter import count_vowels_in_string
 from src.advanced_vowel_counter import count_each_vowel
-
-
 class TestVowelCounter(unittest.TestCase):
     def test_count_vowels_in_string(self):
         """Test the total vowel count function."""
@@ -40,11 +38,8 @@ class TestVowelCounter(unittest.TestCase):
             "Failed on mixed characters"
         )
 
-
 if __name__ == "__main__":
     # Run tests with verbosity for detailed output
     unittest.main(verbosity=2)
-
-
 
 ##python -m unittest discover -s tests -v
